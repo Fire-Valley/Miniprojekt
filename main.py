@@ -14,6 +14,7 @@ tile_types = []
 rectangles = []
 
 # Image setup
+# To change the image, simply enter the corresponding file name inside the parentheses, like this: ("file.name"), on the line below.
 img = cv.imread("24.jpg")
 display_img = img.copy() #Creates a copy of the original image to draw on
 
